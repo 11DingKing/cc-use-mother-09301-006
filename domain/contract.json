@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "高校使命漂移预警",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "发展规划处",
+    "院系负责人",
+    "校级督导"
+  ],
+  "states": [
+    "监测",
+    "预警",
+    "核实",
+    "整改",
+    "关闭"
+  ],
+  "invariants": [
+    "使命快照",
+    "预警案件",
+    "限期整改",
+    "周期重放"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-006-A",
+      "actor": "发展规划处",
+      "state": "监测"
+    },
+    {
+      "case_id": "09301-006-B",
+      "actor": "校级督导",
+      "state": "预警"
+    }
+  ],
+  "tags": [
+    "mission-drift",
+    "governance-alert"
+  ]
+}

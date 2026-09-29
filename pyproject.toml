@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-09301-006"
+version = "0.1.0"
+description = "高校使命漂移预警的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
